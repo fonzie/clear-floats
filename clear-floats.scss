@@ -1,0 +1,25 @@
+// Allows a parent element to enclose the full height of the children
+// elements when all of the children are floated.
+// Normally the parent will have no height. 
+// http://nicolasgallagher.com/micro-clearfix-hack/
+
+%clear-floats {
+  zoom: 1;
+  &:before,
+  &:after {
+    content: "";
+    display: table;
+  }
+  &:after {
+    clear: both;
+  }  
+}
+
+@mixin clear-floats {
+  @extend %clear-floats;
+}
+
+.cf,
+.clear-floats {
+  @extend %clear-floats;
+}
