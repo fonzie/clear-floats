@@ -1,11 +1,12 @@
 {
   "name": "clear-floats",
+  "version": "0.0.1",
   "repo": "fonzie/clear-floats",
   "description": "Various ways to clear floats",
+  "remotes": ["http://fonzie.herokuapp.com/packages"],
   "author": "Anthony Short",
   "main": "clear-floats.scss",
-  "version": "0.0.1",
   "dependencies": {},
   "license": "MIT",
-  "files": [ "clear-floats.css" ]
+  "files": [ "clear-floats.scss" ]
 }
