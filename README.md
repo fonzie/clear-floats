@@ -5,7 +5,7 @@ Clear floated child elements.
 ## Installation
 
 ```
-fonzie install clear-floats
+bower install fonzie-clear-floats
 ```
 
 ## Usage
