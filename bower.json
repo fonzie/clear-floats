@@ -1,0 +1,10 @@
+{
+  "name": "fonzie-clear-floats",
+  "version": "0.1.0",
+  "repo": "fonzie/clear-floats",
+  "description": "Various ways to clear floats",
+  "author": "Anthony Short",
+  "main": "index.scss",
+  "dependencies": {},
+  "license": "MIT"
+}

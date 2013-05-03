@@ -3,7 +3,7 @@
 // Normally the parent will have no height. 
 // http://nicolasgallagher.com/micro-clearfix-hack/
 
-%clear-floats {
+%fz-clearFloats {
   zoom: 1;
   &:before,
   &:after {
@@ -15,11 +15,12 @@
   }  
 }
 
-@mixin clear-floats {
-  @extend %clear-floats;
+@mixin fz-clearFloats {
+  @extend %fz-clearFloats;
 }
 
-.cf,
-.clear-floats {
-  @extend %clear-floats;
+@mixin fz-ClearFloats {
+  .fz-clearFloats {
+    @extend %fz-clearFloats;
+  }
 }
