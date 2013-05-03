@@ -14,14 +14,20 @@ You have access to mixins and classes:
 
 ```scss
 ul {
-  @include clear-floats;
+  @include fz-clearFloats;
 }
 ```
 
+To access the classes, you need to first include them:
+
+```scss
+@include fz-ClearFloats;
+```
+
+Then you can use them
+
 ```html
-<ul class="clear-floats">
+<ul class="fz-cf">
   <li>Floated Item</li>
 </ul>
 ```
-
-You can also use the shorter `cf` class and mixin.

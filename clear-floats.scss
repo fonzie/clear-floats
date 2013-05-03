@@ -20,7 +20,7 @@
 }
 
 @mixin fz-ClearFloats {
-  .fz-clearFloats {
+  .fz-cf {
     @extend %fz-clearFloats;
   }
 }
